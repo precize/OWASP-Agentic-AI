@@ -34,16 +34,19 @@ The documentation is organized into top ten main security risks, each covering a
 
 ### Authors
 - **Anton Chuvakin**: DoS and Capitalize overfitting sections
-- **Akram Sheriff**: Planner security Orchestration Loop, Multi-modal agentic security, Confused Deputy
 - **Aradhna Chetal**: Agent Supply Chain
-- **Ken Huang, CISSP**: Document structure and OWASP standardization
 - **Raj B.**: Capitalize Agentic Overfitting, Model extraction
 - **Govindaraj Palanisamy**: Alignment of sections to OWASP TOP 10 Mapping, Threat Mapping
 - **Mateo Rojas-Carulla**: Data poisoning at scale from untrusted sources, Overreliance and lack of oversight
 - **Matthias Kraft**: Data poisoning at scale from untrusted sources, Overreliance and lack of oversight
 - **Royce Lu**: Stealth Propagation Agent Threats, Agent Memory Exploitation
-- **Anatoly Chikanov**: Technical contributions
+  
+### Contributors
+- **Sunil Arora**: Agent Hallucination Exploitation
 - **Alex Shulman-Peleg, Ph.D.-Peleg**: Security analysis
+- **Anatoly Chikanov**: Technical contributions
+- **Alok Tongaonkar**: Technical contribution
+- **Sid Dadana**: EDOS AI and Downstream
 
 ### Content Reviewers
 - Sahana S
@@ -56,11 +59,8 @@ The documentation is organized into top ten main security risks, each covering a
 - Shobhit Mehta
 - Jon Frampton
 - Moushmi Banerjee
-- Sid Dadana
 - Michael Machado
-- Alok Talgaonkar
-- Sunil Arora: Technical input
-- S M Zia Ur Rashid: Content contributions
+- S M Zia Ur Rashid
 
 ## This project has been made possible through the support and contributions of professionals from leading organizations including:
 - Jacobs
