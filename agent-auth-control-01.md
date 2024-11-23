@@ -20,17 +20,22 @@ The impact of successful agent hijacking can be severe - from unauthorized data 
 
 ### Prevention and Mitigation Strategies
 
-1. Implement strict role-based access control (RBAC) for AI agents:
-   - Define clear permission boundaries for each agent role
-   - Implement time-limited role assignments
+1. Implement strict role-based access control (RBAC) and task-based governance for AI agents:
+   - Any access permission for AI agent should be corresponding to the assigned documented task/tasks
+   - Predefine minimal viable set of permissions/entitlements needed to perform the task before assigning task to an AI agent
+   - As soon as task is assigned to an AI agent, entitlement permissions should be provisioned automatically
+   - If the organization has mature business role management and prefer to assign a role to an agent, the following should be done: 
+      - Define clear permission boundaries for each agent role
+      - Implement time-limited role assignments
    - Enforce automatic permission revocation after task completion
    - Regular audit of agent permissions and roles
 
 2. Establish robust agent activity monitoring:
-   - Real-time monitoring of agent actions and permission changes
+   - Real-time monitoring of agent actions, assigned tasks and permission changes
    - Automated detection of unusual permission patterns
-   - Logging of all permission changes and role assignments
+   - Logging of all permission changes, role and task assignments
    - Regular review of agent activity logs
+   
 
 3. Implement separation of control planes:
    - Separate agent control and execution environments
@@ -42,7 +47,8 @@ The impact of successful agent hijacking can be severe - from unauthorized data 
    - Track all agent actions and permission changes
    - Maintain immutable logs of agent activities
    - Implement version control for agent configurations
-   - Regular audit of agent behavior patterns
+   - Create and maintain AI agent behavior profile around assigned tasks and roles, and constantly check for behavior outlier
+   - Create an exceptions handling process in case agent AI cannot perform an assigned task (data issues, lack of permissions, etc.)
 
 5. Enforce least privilege principle:
    - Grant minimum necessary permissions for each task
