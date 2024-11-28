@@ -21,6 +21,7 @@ The impact of successful attacks can range from operational disruptions to poten
 ### Prevention and Mitigation Strategies
 
 1. Implement strict access controls:
+
    - System isolation
    - Access segregation
    - Permission management
