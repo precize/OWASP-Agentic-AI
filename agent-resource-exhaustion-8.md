@@ -69,3 +69,6 @@ The impact of successful resource exhaustion attacks can range from degraded per
 
 ### Reference Links
 
+https://arxiv.org/pdf/2407.20859v1 - Breaking Agents: Compromising Autonomous LLM Agents Through
+Malfunction Amplification
+
