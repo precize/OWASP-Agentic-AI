@@ -69,3 +69,4 @@ The impact of successful attacks can be exponentially larger than the initial co
 
 ### Reference Links
 
+https://arxiv.org/pdf/2410.16950 - Breaking ReAct Agents: Foot-in-the-Door Attack Will Get You In
