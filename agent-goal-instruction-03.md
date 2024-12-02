@@ -64,3 +64,4 @@ The impact of successful goal manipulation can be severe, potentially causing ag
 
 ### Reference Links
 
+https://dev.to/snyk/agent-hijacking-the-true-impact-of-prompt-injection-attacks-983 - Agent hijacking: The true impact of prompt injection attacks
