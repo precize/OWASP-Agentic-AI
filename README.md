@@ -14,7 +14,7 @@ As AI agents become increasingly prevalent because GenAI models, understanding a
 ## Project Structure
 The documentation is organized into top ten main security risks, each covering a specific risk category:
 1. Agent Authorization and Control Hijacking
-2. Agent Untracability
+2. Agent Untraceability
 3. Agent Critical Systems Interaction
 4. Agent Goal and Instruction Manipulation
 5. Agent Hallucination Exploitation
