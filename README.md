@@ -14,23 +14,29 @@ As AI agents become increasingly prevalent because GenAI models, understanding a
 ## Project Structure
 The documentation is organized into top ten main security risks, each covering a specific risk category:
 1. Agent Authorization and Control Hijacking
-2. Agent Critical Systems Interaction
-3. Agent Goal and Instruction Manipulation
-4. Agent Hallucination Exploitation
-5. Agent Impact Chain and Blast Radius
-6. Agent Memory and Context Manipulation
-7. Agent Orchestration and Multi-Agent Exploitation
-8. Agent Resource and Service Exhaustion
-9. Agent Supply Chain and Dependency Attacks
-10. Agent Knowledge Base Poisoning
+2. Agent Untracability
+3. Agent Critical Systems Interaction
+4. Agent Goal and Instruction Manipulation
+5. Agent Hallucination Exploitation
+6. Agent Impact Chain and Blast Radius
+7. Agent Memory and Context Manipulation
+8. Agent Orchestration and Multi-Agent Exploitation
+9. Agent Resource and Service Exhaustion
+10. Agent Supply Chain and Dependency Attacks
 
+Future  
+1. Agent Knowledge Base Poisoning (for future, may merge with SupplyChain)
+
+## Roadmap
+- **Version 1.0 ** (January 2025)
+- **Version 1.5 ** (May 2025)
 ## Contributors
 
 ### Editors
-- **Vishwas Manral**: Initial document framework and early contributions
+- **Vishwas Manral**: Initial document, framework and early contributions
 - **Ken Huang, CISSP**: Overall editing and conversion of initial document to OWASP format
 - **Akram Sheriff**: Orchestration Loop, Planner Agentic security, Multi-modal agentic security
-- **Aruneesh Salhotra**: Technical review and content organization
+- **Aruneesh Salhotra**: Content organization & OWASP organization ambassador
 
 ### Authors
 - **Anton Chuvakin**: DoS and Capitalize overfitting sections
