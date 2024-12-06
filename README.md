@@ -24,10 +24,10 @@ The documentation is organized into top ten main security risks, each covering a
 9. Agent Resource and Service Exhaustion
 10. Agent Supply Chain and Dependency Attacks
 
-## Future  
+### Future  
 1. Agent Knowledge Base Poisoning (for future, may merge with SupplyChain)
 
-## Roadmap
+### Roadmap
 - **Version 1.0 ** (January 2025)
 - **Version 1.5 ** (May 2025)
 ## Contributors
