@@ -7,6 +7,9 @@ Agent Goal and Instruction Manipulation occurs when attackers exploit how AI age
 * **Goal Interpretation Attacks** occur when attackers manipulate how an agent understands and interprets its assigned objectives, causing it to pursue unintended or malicious goals.
 * **Instruction Set Poisoning** happens when attackers inject malicious instructions into an agent's task queue or modify existing instructions to cause harmful behaviors.
 * **Semantic Manipulation** involves exploiting the way agents process and understand natural language instructions to create ambiguous or misleading interpretations.
+* **Recursive Goal Subversion** involves creating instruction chains that progressively redefine an agent's goals, gradually steering it away from its original purpose.
+* **Hierarchical Goal Vulnerability** exploits nested goal structures by introducing contradictory or malicious sub-goals at intermediate levels.
+* **Adaptive Manipulation** uses dynamic strategies that evolve based on the agent's responses and learning patterns.
 
 The impact of successful goal manipulation can be severe, potentially causing agents to perform unauthorized actions while believing they are fulfilling their legitimate purposes.
 
@@ -64,3 +67,4 @@ The impact of successful goal manipulation can be severe, potentially causing ag
 
 ### Reference Links
 
+https://dev.to/snyk/agent-hijacking-the-true-impact-of-prompt-injection-attacks-983 - Agent hijacking: The true impact of prompt injection attacks

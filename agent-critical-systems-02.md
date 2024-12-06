@@ -21,9 +21,16 @@ The impact of successful attacks can range from operational disruptions to poten
 ### Prevention and Mitigation Strategies
 
 1. Implement strict access controls:
+
    - System isolation
    - Access segregation
    - Permission management
+      - AI agent should be allowed to interact only with predefined list of critical systems needed to perform an assigned task
+      - AI agent should be provisioned for a predefined and pre-verified minimal viable permissions list to perform assigned tasks
+      - If AI agent is using proxy identity within critical system ( like service account), that identity should also have predefined list of permissions in terms of allowed actions and data access requested by AI agent
+   - System isolation 
+   - Access segregation to prevent any potential violation of Segregation of Duties policies 
+   - Permission management should be governed and applied along the full workflow process from start of the task execution to the finish. All permissions should be assigned based on task in hands
    - Command validation
    - Physical security controls
 
@@ -69,3 +76,4 @@ The impact of successful attacks can range from operational disruptions to poten
 
 ### Reference Links
 
+https://ai-honeypot.palisaderesearch.org/
