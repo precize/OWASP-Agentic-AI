@@ -69,7 +69,6 @@ The documentation is organized into top ten main security risks, each covering a
 - S M Zia Ur Rashid
 
 ## This project has been made possible through the support and contributions of professionals from leading organizations including:
-- Jacobs
 - Cisco Systems
 - GSK
 - Palo Alto Networks
@@ -81,6 +80,11 @@ The documentation is organized into top ten main security risks, each covering a
 - Humana
 - GlobalPayments
 - TIAA
+- Meta
+- DigitalTurbine
+- HealthEquity
+- Jacobs
+- SAP
 
 ## License
 This project is part of OWASP and follows OWASP's licensing terms.
