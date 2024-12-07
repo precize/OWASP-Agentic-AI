@@ -26,6 +26,7 @@ The documentation is organized into top ten main security risks, each covering a
 
 ### Future  
 1. Agent Knowledge Base Poisoning (for future, may merge with SupplyChain)
+2. Checker out of the loop vulnerability
 
 ### Roadmap
 - **Version 1.0 ** (January 2025)
