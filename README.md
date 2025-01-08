@@ -29,7 +29,7 @@ The documentation is organized into top ten main security risks, each covering a
 2. Agent Checker out of the loop vulnerability
 
 ### Roadmap
-- **Version 1.0 ** (January 2025)
+- **Version 1.0 ** (Feb 2025)
 - **Version 1.5 ** (May 2025)
 ## Contributors
 
