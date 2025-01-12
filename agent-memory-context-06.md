@@ -62,5 +62,15 @@ The impact of successful memory manipulation can be particularly dangerous as it
 
 5. An attacker causes memory overflow in an agent system, leading to the loss of security context and enabling unauthorized operations to be performed.
 
+Agent Memory Exploitation:
+
+Agent Memory Exploitation (AME) involves a range of attacks targeting the memory systems of AI agents, where persistent data or context is stored for future interactions. By exploiting vulnerabilities in memory management, attackers can inject, modify, or corrupt stored information to mislead the agent’s decisions, violate user privacy, or propagate misinformation across systems. These attacks can occur through direct memory tampering, indirect poisoning of inputs or outputs, or leveraging dynamic role permissions to access sensitive data.
+An attacker manipulates an AI agent's memory to embed false permissions, allowing it to exfiltrate sensitive data. The agent, based on corrupted memory, might send this data via:
+Cloud storage integration: Uploading confidential files to an attacker-controlled folder.
+Plug-ins: Sharing sensitive data through messaging or file-sharing plug-ins, such as Slack or Google Drive.
+Stealthy HTTP requests: Sending user credentials or confidential details through encoded POST payloads or DNS queries to malicious servers.
+In another scenario, the agent could embed sensitive data into a seemingly benign email draft or generate a report with hidden exfiltration scripts using document export plug-ins. Such exploitation allows attackers to extract data stealthily, leveraging legitimate system tools and plug-ins to avoid detection.
+In another scenario, a malicious actor poisons the agent's memory with crafted URLs disguised as trusted sources. The agent then references these malicious URLs in its responses or recommendations, leading users to phishing sites, malware downloads or redirect users to attacker-controlled servers. By exploiting persistent memory, attackers create long-term vulnerabilities that propagate malicious actions across multiple interactions
+
 ### Reference Links
 
