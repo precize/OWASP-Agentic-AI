@@ -1,8 +1,10 @@
-# Agent Critical System Interaction
+# Agent Tool Interaction Manipulation
 
 ### Description
 
-Agent Critical System Interaction vulnerabilities occur when AI agents interact with critical infrastructure, IoT devices, or sensitive operational systems. This vulnerability class is particularly dangerous as it can lead to physical consequences, operational disruptions, and safety incidents. The autonomous nature of AI agents combined with access to critical systems creates unique risks that can affect both digital and physical infrastructure.
+Agent Tool Interaction manipulation vulnerabilities occur when AI agents interact with tools which may include critical infrastructure, IoT devices, or sensitive operational systems. This vulnerability class is particularly dangerous as it can lead to tools being manipulated in unintended ways. This includes physical consequences, operational disruptions, and safety incidents. The autonomous nature of AI agents combined with access to critical systems creates unique risks that can affect both digital and physical infrastructure.
+
+The risk is heightened by agents' access to external systems, self-refinement capabilities, and complex tool interactions.
 
 * **Physical System Manipulation** occurs when attackers exploit agent control over physical infrastructure or industrial systems to cause operational disruptions or safety incidents.
 * **IoT Device Compromise** happens when attackers manipulate how agents interact with connected devices, potentially leading to device malfunction or unauthorized control.
@@ -12,11 +14,13 @@ The impact of successful attacks can range from operational disruptions to poten
 
 ### Common Examples of Vulnerability
 
-1. Attackers manipulate agents controlling industrial control systems to cause equipment damage.
-2. Malicious exploitation of agent access to smart building systems compromises physical security.
-3. Agents controlling IoT devices are compromised to create security breaches.
-4. Critical infrastructure systems are accessed through compromised agent credentials.
-5. Safety systems are bypassed through manipulated agent commands.
+1. Tool Chain Manipulation: Chaining multiple legitimate tool calls in unexpected ways to achieve unauthorized outcomes beyond individual tool validation
+2. Self-Modification Exploitation: Leveraging the agent's self-refinement capabilities to bypass tool usage restrictions or expand tool access.
+3. Attackers manipulate agents controlling industrial control systems to cause equipment damage.
+4. Malicious exploitation of agent access to smart building systems compromises physical security.
+5. Agents controlling IoT devices are compromised to create security breaches.
+6. Critical infrastructure systems are accessed through compromised agent credentials.
+7. Safety systems are bypassed through manipulated agent commands.
 
 ### Prevention and Mitigation Strategies
 
@@ -73,6 +77,11 @@ The impact of successful attacks can range from operational disruptions to poten
 4. A malicious actor compromises an agent with access to critical infrastructure, using its legitimate permissions to gradually introduce systemic vulnerabilities.
 
 5. An attack manipulates an agent's safety monitoring functions, causing it to ignore or misreport critical safety violations in industrial processes.
+
+6. A malicious user chains multiple legitimate file access tools to progressively escalate access and exfiltrate sensitive data while appearing to perform normal operations.
+
+7. An attacker exploits an agent's code generation capabilities by requesting seemingly innocent automation scripts that actually perform unauthorized system modifications.
+
 
 ### Reference Links
 
