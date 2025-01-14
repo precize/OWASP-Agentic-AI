@@ -71,6 +71,7 @@ The documentation is organized into top ten main security risks, each covering a
 - Michael Machado
 - S M Zia Ur Rashid
 - Sangram Dash
+- Jeffrey LEE
 
 ## This project has been made possible through the support and contributions of professionals from leading organizations including:
 - Cisco Systems
@@ -90,6 +91,7 @@ The documentation is organized into top ten main security risks, each covering a
 - Jacobs
 - SAP
 - Sisense
+- Amazon
 
 ## License
 This project is part of OWASP and follows OWASP's licensing terms.
