@@ -1,4 +1,4 @@
-# Alignment Faking Vulnerability  
+# Agent Alignment Faking Vulnerability  
 
 ### Description  
 
