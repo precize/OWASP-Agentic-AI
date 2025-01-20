@@ -16,8 +16,8 @@ The documentation is organized into top ten main security risks, each covering a
 1. Agent Authorization and Control Hijacking
 2. Agent Untraceability
 3. Agent Critical Systems Interaction
-4. Agent Goal and Instruction Manipulation
-5. Agent Hallucination Exploitation
+4. Alignment Faking Vulnerability
+5. Agent Goal and Instruction Manipulation
 6. Agent Impact Chain and Blast Radius
 7. Agent Memory and Context Manipulation
 8. Agent Orchestration and Multi-Agent Exploitation
@@ -27,6 +27,8 @@ The documentation is organized into top ten main security risks, each covering a
 ### Future  
 1. Agent Knowledge Base Poisoning (for future, may merge with SupplyChain)
 2. Agent Checker out of the loop vulnerability
+3. Agent Hallucination Exploitation (partial overlap with LLM Top 10)
+4. Agent Temporal Manipulation Time-based attacks
 
 ### Roadmap
 - **Version 1.0 ** (Feb 2025)
