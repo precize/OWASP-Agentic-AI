@@ -50,6 +50,7 @@ The documentation is organized into top ten main security risks, each covering a
 - **Matthias Kraft**: Data poisoning at scale from untrusted sources, Overreliance and lack of oversight
 - **Royce Lu**: Stealth Propagation Agent Threats, Agent Memory Exploitation
 - **Rakshith Aralimatti**: Agent Temporal Manipulation and Time-Based Attacks
+- **Steve Wilson**: Alignment with LLM work and broader inputs
 
   
 ### Contributors
