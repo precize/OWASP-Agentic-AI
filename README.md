@@ -16,7 +16,7 @@ The documentation is organized into top ten main security risks, each covering a
 1. Agent Authorization and Control Hijacking
 2. Agent Untraceability
 3. Agent Critical Systems Interaction
-4. Alignment Faking Vulnerability
+4. Agent Alignment Faking Vulnerability
 5. Agent Goal and Instruction Manipulation
 6. Agent Impact Chain and Blast Radius
 7. Agent Memory and Context Manipulation
