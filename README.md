@@ -42,6 +42,9 @@ The documentation is organized into top ten main security risks, each covering a
 - **Aruneesh Salhotra**: Content organization & OWASP organization ambassador
 
 ### Authors
+- **Vishwas Manral**: Initial document, framework and early contributions
+- **Ken Huang, CISSP**: Overall editing and conversion of initial document to OWASP format
+- **Akram Sheriff**: Orchestration Loop, Planner Agentic security, Multi-modal agentic security
 - **Anton Chuvakin**: DoS and Capitalize overfitting sections
 - **Aradhna Chetal**: Agent Supply Chain
 - **Raj B.**: Capitalize Agentic Overfitting, Model extraction
