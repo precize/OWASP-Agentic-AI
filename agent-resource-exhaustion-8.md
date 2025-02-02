@@ -17,6 +17,7 @@ The impact of successful resource exhaustion attacks can range from degraded per
 3. API quotas are exhausted through rapid-fire agent requests to external services.
 4. Attackers exploit agent learning processes to consume excessive computational resources.
 5. Economic denial of service (EDoS) attacks target usage-based billing in cloud-hosted agent systems.
+6. Malicious actors do reflective Agentic security Threat attacks successively on the API end points to figure out if the API is running of a CPU,GPU or DPU to Trigger "Excessive resource consumption issues".
 
 ### Prevention and Mitigation Strategies
 
