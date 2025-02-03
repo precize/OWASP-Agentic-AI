@@ -25,7 +25,7 @@ The documentation is organized into top ten main security risks, each covering a
 10. Agent Supply Chain and Dependency Attacks
 
 ### Future  
-1. Agent Knowledge Base Poisoning (for future, may merge with SupplyChain)
+1. Agent Knowledge Base Poisoning (for future, may merge with Memory and Context manipulation)
 2. Agent Checker out of the loop vulnerability
 3. Agent Hallucination Exploitation (partial overlap with LLM Top 10)
 4. Agent Temporal Manipulation Time-based attacks
