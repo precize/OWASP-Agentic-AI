@@ -13,22 +13,22 @@ As AI agents become increasingly prevalent because GenAI models, understanding a
 
 ## Project Structure
 The documentation is organized into top ten main security risks, each covering a specific risk category:
-1. Agent Authorization and Control Hijacking
-2. Agent Untraceability
-3. Agent Critical Systems Interaction
-4. Agent Alignment Faking Vulnerability
-5. Agent Goal and Instruction Manipulation
-6. Agent Impact Chain and Blast Radius
-7. Agent Memory and Context Manipulation
-8. Agent Orchestration and Multi-Agent Exploitation
-9. Agent Resource and Service Exhaustion
-10. Agent Supply Chain and Dependency Attacks
+1. AAI001: Agent Authorization and Control Hijacking
+2. AAI011: Agent Untraceability
+3. AAI002: Agent Critical Systems Interaction
+4. AAI014: Agent Alignment Faking Vulnerability
+5. AAI003: Agent Goal and Instruction Manipulation
+6. AAI005: Agent Impact Chain and Blast Radius
+7. AAI006: Agent Memory and Context Manipulation
+8. AAI007: Agent Orchestration and Multi-Agent Exploitation
+9. AAI008: Agent Resource and Service Exhaustion
+10. AAI009: Agent Supply Chain and Dependency Attacks
 
 ### Future  
-1. Agent Knowledge Base Poisoning (for future, may merge with Memory and Context manipulation)
-2. Agent Checker out of the loop vulnerability
-3. Agent Hallucination Exploitation (partial overlap with LLM Top 10)
-4. Agent Temporal Manipulation Time-based attacks
+1. AAI010: Agent Knowledge Base Poisoning (for future, may merge with Memory and Context manipulation)
+2. AAI012: Agent Checker out of the loop vulnerability
+3. AAI004: Agent Hallucination Exploitation (partial overlap with LLM Top 10)
+4. AAI014: Agent Temporal Manipulation Time-based attacks
 
 ### Roadmap
 - **Version 1.0 ** (Feb 2025)
