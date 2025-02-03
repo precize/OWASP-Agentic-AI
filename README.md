@@ -27,7 +27,7 @@ The documentation is organized into top ten main security risks, each covering a
 ### Future  
 1. AAI014: Agent Temporal Manipulation Time-based attacks
 
-###Deprecated
+### Deprecated
 1. AAI004: Agent Hallucination Exploitation (partial overlap with LLM Top 10, so letting it stay in the LLM Top 10)
 2. AAI010: Agent Knowledge Base Poisoning (will be merged with AAI006 - Memory and Context manipulation)
 3. AAI008: Agent Resource and Service Exhaustion (will be merged with AAI005 - Imapct Chain and Blast Radius)
