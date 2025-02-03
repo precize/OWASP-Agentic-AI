@@ -21,14 +21,17 @@ The documentation is organized into top ten main security risks, each covering a
 6. AAI005: Agent Impact Chain and Blast Radius
 7. AAI006: Agent Memory and Context Manipulation
 8. AAI007: Agent Orchestration and Multi-Agent Exploitation
-9. AAI008: Agent Resource and Service Exhaustion
-10. AAI009: Agent Supply Chain and Dependency Attacks
+9. AAI009: Agent Supply Chain and Dependency Attacks
+10. AAI012: Agent Checker out of the loop vulnerability
 
 ### Future  
-1. AAI010: Agent Knowledge Base Poisoning (for future, may merge with Memory and Context manipulation)
-2. AAI012: Agent Checker out of the loop vulnerability
-3. AAI004: Agent Hallucination Exploitation (partial overlap with LLM Top 10)
-4. AAI014: Agent Temporal Manipulation Time-based attacks
+1. AAI014: Agent Temporal Manipulation Time-based attacks
+
+###Deprecated
+1. AAI004: Agent Hallucination Exploitation (partial overlap with LLM Top 10, so letting it stay in the LLM Top 10)
+2. AAI010: Agent Knowledge Base Poisoning (will be merged with AAI006 - Memory and Context manipulation)
+3. AAI008: Agent Resource and Service Exhaustion (will be merged with AAI005 - Imapct Chain and Blast Radius)
+
 
 ### Roadmap
 - **Version 1.0 ** (Feb 2025)
