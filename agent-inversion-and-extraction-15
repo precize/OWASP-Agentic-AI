@@ -1,0 +1,89 @@
+# Agent Inversion and Extraction Vulnerability (A15)
+
+### Description  
+Agent Inversion and Extraction occurs when attackers exploit interfaces or operational characteristics to steal **core agent components**, including proprietary models, system prompts, content filters, decision logic, and framework configurations. This enables full replication of agent functionality, violating intellectual property (IP) rights and creating unfair competition through stolen AI infrastructure.
+
+**Key Risks:**  
+- **Full Agent Replication:** Reverse-engineering entire agent frameworks (prompts, logic, filters) to create functional clones  
+- **IP Theft:** Extraction of proprietary system prompts, rule sets, or content filtering mechanisms  
+- **Competitive Sabotage:** Creating low-cost replicas using stolen logic/prompts to undercut original developers  
+- **Safety Bypass:** Extracting and neutralizing content filters/safety guardrails from cloned agents  
+- **Prompt/Filter Hijacking:** Stealing curated instruction sets that define agent personality and operational boundaries  
+
+### Attack Surfaces  
+1. **API Plane:** Input/output patterns revealing system prompts and logic  
+2. **Framework Plane:** Configuration files, prompt templates, and rule-based systems  
+3. **Memory Plane:** Model weights and activation patterns during inference  
+4. **Hardware Plane:** Operational signatures exposing logic execution paths  
+5. **Prompt Layer:** Direct access to system instructions through API exploits or side-channel attacks  
+
+---
+
+### Common Examples of Vulnerability  
+1. **System Prompt Extraction:** Deduce agent's core instructions through input-output pattern analysis  
+2. **Content Filter Reconstruction:** Map prohibited topics by testing rejection patterns  
+3. **Logic Blueprinting:** Reverse-engineer decision trees/rule engines through strategic interrogation  
+4. **Hybrid Replicas:** Combine stolen prompts with open-source models to create competing agents  
+5. **Safety Neutralization:** Remove ethical constraints from cloned agents using extracted filter rules  
+6. **Personality Cloning:** Replicate agent's unique tone/style by extracting prompt engineering templates  
+
+---
+
+### Prevention and Mitigation Strategies  
+
+#### Framework Protections  
+1. **Prompt Security:**  
+   - Implement dynamic prompt variation systems with context-aware mutations  
+   - Use encrypted prompt templates with runtime decryption  
+   - Regularly rotate core instructions via CI/CD pipelines  
+   - Embed tamper-evident watermarks in system instructions  
+
+2. **Content Filter Safeguards:**  
+   - Deploy multi-layer stochastic filtering with randomized enforcement patterns  
+   - Implement rule ambiguity through probabilistic safety checks  
+   - Use homomorphic encryption for sensitive filter logic execution  
+
+3. **Logic Protection:**  
+   - Fragment decision systems across isolated microservices  
+   - Apply control-flow randomization in rule engines  
+   - Use confidential computing for core logic execution  
+
+#### Anti-Replication Measures  
+4. **Behavior Watermarking:**  
+   - Embed detectable response patterns using cryptographic steganography  
+   - Implement API fingerprinting with unique per-client identifiers  
+   - Insert honeypot traps in outputs to detect cloned agents  
+
+5. **IP Protection Systems:**  
+   - Monitor marketplaces for replicas using forensic watermark detection  
+   - Implement blockchain-based attestation for prompt/configuration versions  
+   - Use legal-technical hybrids: DMCA takedowns triggered by code hashes  
+
+6. **Competition Safeguards:**  
+   - Embed economic disincentives (e.g., cost traps) in cloned workflows  
+   - Implement time-delayed feature rollouts to invalidate stolen versions  
+   - Use adversarial capabilities that only activate in cloned environments  
+
+---
+
+### Example Attack Scenarios  
+
+1. **Competitor Prompt Theft:**  
+   A rival company systematically probes a customer service agent's API, reconstructing its core system prompt ("Always maintain brand voice X") and proprietary escalation logic. They deploy a cloned agent with 90% functional parity at half the operational cost.  
+
+2. **Content Filter Strip Mining:**  
+   Attackers use gradient-based attacks to extract an AI moderator's prohibited topic list and safety thresholds. The stolen filters are reverse-engineered to create uncensored clones for illicit markets.  
+
+3. **Full Framework Replication:**  
+   Malicious actors combine extracted model weights, stolen prompt templates, and decompiled rule engines to create a competing financial analysis agent, violating 3 patents and undercutting pricing by 40%.  
+
+4. **Personality Hijacking:**  
+   A cloned travel agent replicates the original's unique conversational style by extracting hidden prompt instructions ("Use nautical metaphors for cruise packages"), then redirects bookings to competitor services.  
+
+---
+
+### Reference Links  
+- [NIST AI Risk Management Framework (Prompt Protection Guidelines)](https://nist.gov/ai-rmf)  
+- [WIPO AI IP Protection Strategies](https://www.wipo.int/ai/en/)  
+- [ML Model Stealing Defenses - IEEE S&P 2024](https://ieeexplore.ieee.org/document/10494714)  
+- [AI Content Filter Bypass Techniques - OWASP LLM Top 10](https://owasp.org/www-project-top-10-for-large-language-model-applications/)  
