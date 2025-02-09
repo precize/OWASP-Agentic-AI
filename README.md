@@ -26,6 +26,7 @@ The documentation is organized into top ten main security risks, each covering a
 
 ### Future  
 1. AAI014: Agent Temporal Manipulation Time-based attacks
+2. AAI015: Agent Inversion and Extraction Vulnerability
 
 ### Deprecated
 1. AAI004: Agent Hallucination Exploitation (partial overlap with LLM Top 10, so letting it stay in the LLM Top 10)
@@ -57,8 +58,8 @@ The documentation is organized into top ten main security risks, each covering a
 - **Royce Lu**: Stealth Propagation Agent Threats, Agent Memory Exploitation
 - **Rakshith Aralimatti**: Agent Temporal Manipulation and Time-Based Attacks
 - **Steve Wilson**: Alignment with LLM work and broader inputs
+- **Karthik Ramamoorthy**: Agent Inversion and extraction Vulnerability 
 
-  
 ### Contributors
 - **Sunil Arora**: Agent Hallucination Exploitation
 - **Alex Shulman-Peleg, Ph.D.-Peleg**: Security analysis
