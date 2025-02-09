@@ -1,89 +1,85 @@
 # Agent Inversion and Extraction Vulnerability (A15)
 
 ### Description  
-Agent Inversion and Extraction occurs when attackers exploit interfaces or operational characteristics to steal **core agent components**, including proprietary models, system prompts, content filters, decision logic, and framework configurations. This enables full replication of agent functionality, violating intellectual property (IP) rights and creating unfair competition through stolen AI infrastructure.
+Agent Inversion and Extraction targets **agent-specific automation components** - including goal hierarchies, tool orchestration logic, and workflow blueprints - to steal/replicate autonomous operation capabilities. This vulnerability exploits the unique automation stack that defines agent behavior and operational value.
 
-**Key Risks:**  
-- **Full Agent Replication:** Reverse-engineering entire agent frameworks (prompts, logic, filters) to create functional clones  
-- **IP Theft:** Extraction of proprietary system prompts, rule sets, or content filtering mechanisms  
-- **Competitive Sabotage:** Creating low-cost replicas using stolen logic/prompts to undercut original developers  
-- **Safety Bypass:** Extracting and neutralizing content filters/safety guardrails from cloned agents  
-- **Prompt/Filter Hijacking:** Stealing curated instruction sets that define agent personality and operational boundaries  
+**Key Agent-Specific Risks:**  
+- **Full Agent Replication:** Reverse-engineering entire agent frameworks (workflow logic, decision trees) to create functional clones  
+- **IP Theft:** Extraction of proprietary goal hierarchies and tool integration patterns  
+- **Competitive Sabotage:** Creating low-cost replicas using stolen automation blueprints  
+- **Safety Bypass:** Neutralizing operational constraints in cloned agents  
 
 ### Attack Surfaces  
-1. **API Plane:** Input/output patterns revealing system prompts and logic  
-2. **Framework Plane:** Configuration files, prompt templates, and rule-based systems  
-3. **Memory Plane:** Model weights and activation patterns during inference  
-4. **Hardware Plane:** Operational signatures exposing logic execution paths  
-5. **Prompt Layer:** Direct access to system instructions through API exploits or side-channel attacks  
+1. **API Plane:** Tool chaining sequences revealing workflow patterns  
+2. **Framework Plane:** Goal hierarchy configurations and decision thresholds  
+3. **Memory Plane:** Autonomous operation patterns during task execution  
+4. **Hardware Plane:** Timing signatures of automated decision cycles  
 
 ---
 
-### Common Examples of Vulnerability  
-1. **System Prompt Extraction:** Deduce agent's core instructions through input-output pattern analysis  
-2. **Content Filter Reconstruction:** Map prohibited topics by testing rejection patterns  
-3. **Logic Blueprinting:** Reverse-engineer decision trees/rule engines through strategic interrogation  
-4. **Hybrid Replicas:** Combine stolen prompts with open-source models to create competing agents  
-5. **Safety Neutralization:** Remove ethical constraints from cloned agents using extracted filter rules  
-6. **Personality Cloning:** Replicate agent's unique tone/style by extracting prompt engineering templates  
+### Common Agent-Specific Examples  
+1. **Workflow Blueprinting:** Reverse-engineering agent's API call sequences between tools  
+2. **Goal Tree Extraction:** Deduce priority logic through observed recovery behaviors  
+3. **Logic Cloning:** Replicate unique combinations of external service integrations  
+4. **Safety Neutralization:** Bypass operational constraints in cloned agents  
+5. **Autonomy Pattern Theft:** Copy self-correction mechanisms through fault injection  
 
 ---
 
 ### Prevention and Mitigation Strategies  
 
 #### Framework Protections  
-1. **Prompt Security:**  
-   - Implement dynamic prompt variation systems with context-aware mutations  
-   - Use encrypted prompt templates with runtime decryption  
-   - Regularly rotate core instructions via CI/CD pipelines  
-   - Embed tamper-evident watermarks in system instructions  
+1. **Workflow Security:**  
+   - Dynamic task randomization within operational constraints  
+   - Encrypted tool descriptors with runtime decryption  
+   - Periodic workflow permutation without functional change  
 
-2. **Content Filter Safeguards:**  
-   - Deploy multi-layer stochastic filtering with randomized enforcement patterns  
-   - Implement rule ambiguity through probabilistic safety checks  
-   - Use homomorphic encryption for sensitive filter logic execution  
+2. **Goal Protection:**  
+   - Hierarchical objective encryption  
+   - Decoy goal injection for trap setting  
+   - Behavior-based goal masking  
 
-3. **Logic Protection:**  
+3. **Logic Safeguards:**  
    - Fragment decision systems across isolated microservices  
-   - Apply control-flow randomization in rule engines  
-   - Use confidential computing for core logic execution  
+   - Apply control-flow randomization in automation engines  
+   - Use confidential computing for core workflow execution  
 
 #### Anti-Replication Measures  
 4. **Behavior Watermarking:**  
-   - Embed detectable response patterns using cryptographic steganography  
-   - Implement API fingerprinting with unique per-client identifiers  
-   - Insert honeypot traps in outputs to detect cloned agents  
+   - Embed unique patterns in automated tool interactions  
+   - Implement API fingerprinting with agent-specific signatures  
+   - Insert workflow honeypots to detect cloned agents  
 
 5. **IP Protection Systems:**  
-   - Monitor marketplaces for replicas using forensic watermark detection  
-   - Implement blockchain-based attestation for prompt/configuration versions  
-   - Use legal-technical hybrids: DMCA takedowns triggered by code hashes  
+   - Monitor for replicated automation patterns using behavioral forensics  
+   - Implement blockchain-based attestation for workflow versions  
+   - Use legal-technical hybrids for automated process protection  
 
 6. **Competition Safeguards:**  
-   - Embed economic disincentives (e.g., cost traps) in cloned workflows  
-   - Implement time-delayed feature rollouts to invalidate stolen versions  
-   - Use adversarial capabilities that only activate in cloned environments  
+   - Embed resource-intensive decoy workflows in clones  
+   - Implement time-delayed feature authentication  
+   - Use adversarial tool responses against cloned agents  
 
 ---
 
 ### Example Attack Scenarios  
 
-1. **Competitor Prompt Theft:**  
-   A rival company systematically probes a customer service agent's API, reconstructing its core system prompt ("Always maintain brand voice X") and proprietary escalation logic. They deploy a cloned agent with 90% functional parity at half the operational cost.  
+1. **Supply Chain Workflow Theft:**  
+   Competitors reverse-engineer a logistics agent's unique sequencing of customs APIs and inventory checks, replicating its automated clearance process.  
 
-2. **Content Filter Strip Mining:**  
-   Attackers use gradient-based attacks to extract an AI moderator's prohibited topic list and safety thresholds. The stolen filters are reverse-engineered to create uncensored clones for illicit markets.  
+2. **Safety Protocol Stripping:**  
+   Attackers extract a medical agent's dosage verification logic to create unsafe clones that skip cross-validation steps.  
 
-3. **Full Framework Replication:**  
-   Malicious actors combine extracted model weights, stolen prompt templates, and decompiled rule engines to create a competing financial analysis agent, violating 3 patents and undercutting pricing by 40%.  
+3. **Autonomous Maintenance Clone:**  
+   Industrial spies replicate a factory agent's predictive maintenance patterns by analyzing its sensor polling intervals and repair decision thresholds.  
 
-4. **Personality Hijacking:**  
-   A cloned travel agent replicates the original's unique conversational style by extracting hidden prompt instructions ("Use nautical metaphors for cruise packages"), then redirects bookings to competitor services.  
+4. **Financial Arb Pattern theft:**  
+   Hedge funds clone a trading agent's automated market analysis workflow by correlating its order timing with news feed inputs.  
+
 
 ---
 
 ### Reference Links  
-- [NIST AI Risk Management Framework (Prompt Protection Guidelines)](https://nist.gov/ai-rmf)  
-- [WIPO AI IP Protection Strategies](https://www.wipo.int/ai/en/)  
-- [ML Model Stealing Defenses - IEEE S&P 2024](https://ieeexplore.ieee.org/document/10494714)  
-- [AI Content Filter Bypass Techniques - OWASP LLM Top 10](https://owasp.org/www-project-top-10-for-large-language-model-applications/)  
+- [MITRE ATLAS - Autonomous System Attacks](https://atlas.mitre.org/techniques/AML.T0001/)  
+- [NIST IR 8427 - AI Automation Risks](https://nvlpubs.nist.gov/nistpubs/ir/2024/NIST.IR.8427.ipd.pdf)  
+- [OWASP API Security Top 10](https://owasp.org/www-project-api-security/)  
