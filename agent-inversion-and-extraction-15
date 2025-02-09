@@ -1,4 +1,4 @@
-# Agent Inversion and Extraction Vulnerability (A15)
+# AAI015: Agent Inversion and Extraction Vulnerability
 
 ### Description  
 Agent Inversion and Extraction targets **agent-specific automation components** - including goal hierarchies, tool orchestration logic, and workflow blueprints - to steal/replicate autonomous operation capabilities. This vulnerability exploits the unique automation stack that defines agent behavior and operational value.
