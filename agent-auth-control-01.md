@@ -68,4 +68,6 @@ The impact of successful agent hijacking can be severe - from unauthorized data 
 
 5. An insider threat manipulates an agent's configuration to retain admin privileges beyond their intended duration. They use these extended privileges to perform unauthorized system changes while evading detection through the agent's trusted status.
 
+6. An execution agent-1 could be attacked by a Threat Vector and then influence  another Execution agent-2 in the same layer if there is  NO authentication or JWT based technique involved for Peer to Peer Communication by AI Agents in the same Layer. This is another important secuirty attack scenario in the Agent to Agent collaboration phase.
+
 ### Reference Links
