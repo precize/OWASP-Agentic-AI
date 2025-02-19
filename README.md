@@ -74,7 +74,6 @@ The documentation is organized into top ten main security risks, each covering a
 - John Sotiropoulos
 - Sriram Gopalan
 - Parthasarathi Chakraborty
-- Ron F. Del Rosario
 - Vladislav Shapiro
 - Vivek S. Menon
 - Shobhit Mehta
@@ -101,7 +100,6 @@ The documentation is organized into top ten main security risks, each covering a
 - DigitalTurbine
 - HealthEquity
 - Jacobs
-- SAP
 - Sisense
 - Amazon
 
