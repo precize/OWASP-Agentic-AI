@@ -71,7 +71,6 @@ The documentation is organized into top ten main security risks, each covering a
 
 ### Content Reviewers
 - Sahana S
-- John Sotiropoulos
 - Sriram Gopalan
 - Parthasarathi Chakraborty
 - Vladislav Shapiro
