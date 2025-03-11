@@ -103,7 +103,7 @@ The documentation is organized into top ten main security risks, each covering a
 - Amazon
 
 ## License
-This project is part of OWASP and follows OWASP's licensing terms.
+This project is part of AI & Cloud Governance Council.
 
 ## How to Contribute
 We welcome contributions from the security community. Please see our contribution guidelines for more information on how to participate in this project.
@@ -114,4 +114,4 @@ For questions, suggestions, or concerns, please open an issue in this repository
 ## Acknowledgments
 Special thanks to all contributors who have dedicated their time and expertise to make this project possible, and to the organizations that have supported their participation in this important security initiative.
 
-*This document will be maintained by the OWASP community and represents a collaborative effort to improve security in AI agent systems.*
+*This document will be maintained by the AI & Cloud Governance Council community and represents a collaborative effort to improve security in AI agent systems.*
