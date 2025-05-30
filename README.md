@@ -1,5 +1,5 @@
 
-# Top 10 threats and mitigation for AI Agents - Candidate Framework
+# Top 10 threats and mitigation for AI Agents
 
 ## Overview
 This project documents the top 10 security risks specifically related to AI Agents, representing a comprehensive analysis of vulnerabilities unique to autonomous AI systems. The document provides detailed descriptions, examples, and mitigation strategies for each risk, helping organizations secure their AI agent deployments effectively.
