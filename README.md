@@ -44,7 +44,6 @@ The documentation is organized into top ten main security risks, each covering a
 - **Vishwas Manral**: Initial document, framework and early contributions
 - **Ken Huang, CISSP**: Overall editing and conversion of initial document to OWASP format
 - **Akram Sheriff**: Orchestration Loop, Planner Agentic security, Multi-modal agentic security
-- **Aruneesh Salhotra**: Content organization & OWASP organization ambassador
 
 ### Authors
 - **Vishwas Manral**: Initial document, framework and early contributions
@@ -61,6 +60,7 @@ The documentation is organized into top ten main security risks, each covering a
 - **Steve Wilson**: Alignment with LLM work and broader inputs
 - **Karthik Ramamoorthy**: Agent Inversion and extraction Vulnerability
 - **Kanmani Rani Kumar Rajah**: Agent Covert Channel Exploitation
+- **Aruneesh Salhotra**: OWASP organization ambassador
 
 ### Contributors
 - **Sunil Arora**: Agent Hallucination Exploitation
